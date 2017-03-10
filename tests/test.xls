@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+  <ss:Styles>
+    <ss:Style ss:ID="ocaff_currency">
+      <ss:NumberFormat ss:Format="Currency"/>
+    </ss:Style>
+    <ss:Style ss:ID="ocaff_number">
+      <ss:NumberFormat ss:Format="General Number"/>
+    </ss:Style>
+    <ss:Style ss:ID="ocaff_percent">
+      <ss:NumberFormat ss:Format="Percent"/>
+    </ss:Style>
+    <ss:Style ss:ID="ocaff_header">
+      <ss:Font ss:Bold="1"/>
+      <ss:Alignment ss:Horizontal="Center"/>
+    </ss:Style>
+    <ss:Style ss:ID="ocaff_bold">
+      <ss:Font ss:Bold="1"/>
+      <ss:Alignment ss:Horizontal="Left"/>
+    </ss:Style>
+    <ss:Style ss:ID="ocaff_even">
+      <ss:Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+    </ss:Style>
+    <ss:Style ss:ID="ocaff_odd"/>
+  </ss:Styles>
+  <ss:Worksheet ss:Name="Name">
+    <ss:Table>
+      <ss:Row>
+        <ss:Cell ss:StyleID="ocaff_header">
+          <ss:Data ss:Type="String">Manufacturer</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="ocaff_header">
+          <ss:Data ss:Type="String">Sales</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell>
+          <ss:Data ss:Type="String">Carhartt</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="ocaff_currency">
+          <ss:Data ss:Type="Number">13500</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell>
+          <ss:Data ss:Type="String">Manufacturer 1</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="ocaff_currency">
+          <ss:Data ss:Type="Number">2388</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell>
+          <ss:Data ss:Type="String">Manufacturer 2</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="ocaff_currency">
+          <ss:Data ss:Type="Number">1579</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell>
+          <ss:Data ss:Type="String">Manufacturer 3</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="ocaff_currency">
+          <ss:Data ss:Type="Number">673</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell>
+          <ss:Data ss:Type="String">Manufacturer 4</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="ocaff_currency">
+          <ss:Data ss:Type="Number">1524</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+      <ss:Row>
+        <ss:Cell>
+          <ss:Data ss:Type="String">Manufacturer 5</ss:Data>
+        </ss:Cell>
+        <ss:Cell ss:StyleID="ocaff_currency">
+          <ss:Data ss:Type="Number">1289</ss:Data>
+        </ss:Cell>
+      </ss:Row>
+    </ss:Table>
+  </ss:Worksheet>
+</ss:Workbook>

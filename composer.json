@@ -1,0 +1,22 @@
+{
+    "name": "overlycaffeinated/tablegenerator",
+    "description": "A library for creating tables in various formats",
+    "keywords": ["excel", "table"],
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Pennington",
+            "email": "josh@overlycaffeinated.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OverlyCaffeinated\\Table": "src/"
+        }
+    }
+}
