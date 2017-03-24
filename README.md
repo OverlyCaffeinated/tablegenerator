@@ -9,10 +9,12 @@ not tested as of this writing)
 In order to create your table, look at the following example:
 
 ```
-use OverlyCaffeinated\Table\Cell;
-use OverlyCaffeinated\Table\Render\ExcelXML;
-use OverlyCaffeinated\Table\Table;
-use OverlyCaffeinated\Table\Render\TwitterBootstrapV3;
+use Table\Cell;
+use Table\Render\ExcelXML;
+use Table\Render\TwitterBootstrapV3;
+use Table\Table;
+
+require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
 $table = new Table();
 

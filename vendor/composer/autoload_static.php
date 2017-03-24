@@ -6,20 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit2f42ee7c7747adfc90077d0bb6bdcba2
 {
-    public static $prefixesPsr0 = array (
-        'O' => 
+    public static $prefixLengthsPsr4 = array (
+        'T' => 
         array (
-            'OverlyCaffeinated\\Table' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
-            ),
+            'Table\\' => 6,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Table\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit2f42ee7c7747adfc90077d0bb6bdcba2::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2f42ee7c7747adfc90077d0bb6bdcba2::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2f42ee7c7747adfc90077d0bb6bdcba2::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

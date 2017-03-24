@@ -6,10 +6,10 @@
  * Time: 8:35 PM
  */
 
-namespace OverlyCaffeinated\Table\Render;
+namespace Table\Render;
 
 
-use OverlyCaffeinated\Table\Cell;
+use Table\Cell;
 
 class TwitterBootstrapV3 implements Renderer
 {

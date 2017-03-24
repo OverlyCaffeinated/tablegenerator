@@ -6,12 +6,12 @@
  * Time: 9:20 PM
  */
 
-namespace OverlyCaffeinated\Table\Render;
+namespace Table\Render;
 
 
-use OverlyCaffeinated\Table\Cell;
-use OverlyCaffeinated\Table\Render\Excel\Document;
-use OverlyCaffeinated\Table\Render\Excel\Row;
+use Table\Cell;
+use Table\Render\Excel\Document;
+use Table\Render\Excel\Row;
 
 class ExcelXML implements Renderer
 {
@@ -27,7 +27,7 @@ class ExcelXML implements Renderer
             $excel_row = new Row($excel_table);
 
             foreach($row->getRowContents() as $cell) {
-                new \OverlyCaffeinated\Table\Render\Excel\Cell($excel_row, $cell);
+                new \Table\Render\Excel\Cell($excel_row, $cell);
             }
         }
 
