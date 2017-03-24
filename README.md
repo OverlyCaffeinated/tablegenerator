@@ -10,7 +10,7 @@ In order to create your table, look at the following example:
 
 ```
 use Table\Cell;
-use Table\Render\ExcelXML;
+use Table\Render\ExcelXML;  
 use Table\Render\TwitterBootstrapV3;
 use Table\Table;
 
