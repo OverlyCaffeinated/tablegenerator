@@ -1,6 +1,6 @@
 <?php
 
-namespace OverlyCaffeinated\Table\Render\Excel;
+namespace Table\Render\Excel;
 
 class Style {
 

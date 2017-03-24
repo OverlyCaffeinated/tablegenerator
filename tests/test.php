@@ -1,11 +1,11 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
+use Table\Cell;
+use Table\Render\ExcelXML;
+use Table\Render\TwitterBootstrapV3;
+use Table\Table;
 
-use OverlyCaffeinated\Table\Cell;
-use OverlyCaffeinated\Table\Render\ExcelXML;
-use OverlyCaffeinated\Table\Table;
-use OverlyCaffeinated\Table\Render\TwitterBootstrapV3;
+require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
 $table = new Table();
 
@@ -25,8 +25,8 @@ for($i=1; $i<=5; $i++) {
 }
 
 $rendered = $table->render(TwitterBootstrapV3::class, ['table-bordered' => true]);
-//echo $rendered;
+echo $rendered;
 
 $rendered = $table->render(ExcelXML::class);
-echo $rendered;
+//echo $rendered;
 

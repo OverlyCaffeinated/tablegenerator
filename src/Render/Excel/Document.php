@@ -6,7 +6,7 @@
  * Time: 9:24 PM
  */
 
-namespace OverlyCaffeinated\Table\Render\Excel;
+namespace Table\Render\Excel;
 
 
 class Document

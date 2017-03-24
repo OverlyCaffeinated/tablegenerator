@@ -6,7 +6,7 @@
  * Time: 7:31 PM
  */
 
-namespace OverlyCaffeinated\Table\Render\Excel;
+namespace Table\Render\Excel;
 
 
 class Row

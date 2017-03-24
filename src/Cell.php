@@ -1,6 +1,6 @@
 <?php
 
-namespace OverlyCaffeinated\Table;
+namespace Table;
 
 
 class Cell
