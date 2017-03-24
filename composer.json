@@ -1,6 +1,7 @@
 {
     "name": "overlycaffeinated/tablegenerator",
     "description": "A library for creating tables in various formats",
+    "version": "1.0.0",
     "keywords": ["excel", "table"],
     "type": "package",
     "license": "MIT",
